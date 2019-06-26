@@ -1,4 +1,4 @@
-package it.ictgroup.twilio.management;
+package it.ictgroup.messages.management;
 
 public class AppConstants extends it.ictgroup.api.management.AppConstants {
 

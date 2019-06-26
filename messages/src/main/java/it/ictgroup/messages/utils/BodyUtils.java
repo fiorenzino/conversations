@@ -1,6 +1,6 @@
-package it.ictgroup.twilio.utils;
+package it.ictgroup.messages.utils;
 
-import it.ictgroup.twilio.model.WhatsappMessage;
+import it.ictgroup.messages.model.WhatsappMessage;
 
 public class BodyUtils {
 

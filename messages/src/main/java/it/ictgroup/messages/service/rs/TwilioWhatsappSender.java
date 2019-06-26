@@ -1,6 +1,6 @@
-package it.ictgroup.twilio.rs;
+package it.ictgroup.messages.service.rs;
 
-import it.ictgroup.twilio.rs.client.TwilioWhatsappSenderClient;
+import it.ictgroup.messages.service.client.TwilioWhatsappSenderClient;
 import org.eclipse.microprofile.config.inject.ConfigProperty;
 import org.eclipse.microprofile.rest.client.inject.RestClient;
 import org.jboss.logging.Logger;
@@ -10,7 +10,7 @@ import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import java.util.Base64;
 
-import static it.ictgroup.twilio.management.AppConstants.W_SEND_MESSAGES_PATH;
+import static it.ictgroup.messages.management.AppConstants.W_SEND_MESSAGES_PATH;
 
 @Path(W_SEND_MESSAGES_PATH)
 @Produces(MediaType.APPLICATION_JSON)

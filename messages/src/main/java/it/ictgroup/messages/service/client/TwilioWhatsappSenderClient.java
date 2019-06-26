@@ -1,4 +1,4 @@
-package it.ictgroup.twilio.rs.client;
+package it.ictgroup.messages.service.client;
 
 import org.eclipse.microprofile.rest.client.inject.RegisterRestClient;
 

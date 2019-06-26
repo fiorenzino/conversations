@@ -1,8 +1,8 @@
-package it.ictgroup.twilio.rs;
+package it.ictgroup.messages.service.rs;
 
 import io.quarkus.hibernate.orm.panache.PanacheQuery;
 import it.ictgroup.api.service.RsRepositoryService;
-import it.ictgroup.twilio.model.WhatsappMessage;
+import it.ictgroup.messages.model.WhatsappMessage;
 
 import javax.inject.Singleton;
 import javax.ws.rs.Consumes;
@@ -13,7 +13,7 @@ import javax.ws.rs.core.UriInfo;
 import java.util.HashMap;
 import java.util.Map;
 
-import static it.ictgroup.twilio.management.AppConstants.WMESSAGES_PATH;
+import static it.ictgroup.messages.management.AppConstants.WMESSAGES_PATH;
 
 @Path(WMESSAGES_PATH)
 @Produces(MediaType.APPLICATION_JSON)

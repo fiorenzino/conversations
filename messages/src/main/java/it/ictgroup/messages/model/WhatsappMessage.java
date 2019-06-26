@@ -1,4 +1,4 @@
-package it.ictgroup.twilio.model;
+package it.ictgroup.messages.model;
 
 import io.quarkus.hibernate.orm.panache.PanacheEntityBase;
 

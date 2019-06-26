@@ -44,6 +44,11 @@
             <groupId>io.quarkus</groupId>
             <artifactId>quarkus-smallrye-reactive-messaging-kafka</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>it.ictgroup.conversations</groupId>
+            <artifactId>accounts</artifactId>
+        </dependency>
     </dependencies>
     <build>
         <plugins>
